@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+}
+
+.header--content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: linear-gradient(#672280, #a626d3);
+  color: #fff;
+  gap: 15px;
+  height: 65px;
+}
+
+.header--content img {
+  width: 31px;
+}
+
+.header--content h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
