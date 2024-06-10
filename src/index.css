@@ -55,6 +55,7 @@ main {
   cursor: pointer;
   height: 50px;
   letter-spacing: -1px;
+  font-weight: bold;
 }
 
 .form--input {
