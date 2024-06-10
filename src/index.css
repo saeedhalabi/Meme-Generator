@@ -7,6 +7,10 @@ body {
   font-family: "Karla", sans-serif;
 }
 
+main {
+  padding: 36px;
+}
+
 .header--content {
   display: flex;
   align-items: center;
@@ -26,4 +30,36 @@ body {
   font-size: 1.25rem;
   font-weight: bold;
   letter-spacing: -2px;
+}
+
+.meme--section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 20px;
+}
+
+.form--button {
+  grid-column: 1 / -1;
+  font-family: inherit;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #672280 1.4%, #a626d3 100%);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  height: 50px;
+  letter-spacing: -1px;
+}
+
+.form--input {
+  font-family: inherit;
+  border-radius: 5px;
+  border: 1px solid #d1d5db;
+  text-indent: 10px;
 }
