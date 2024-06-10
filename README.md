@@ -9,7 +9,7 @@ Create and share hilarious memes effortlessly with this React.js-based Meme Gene
 - Built with React.js, showcasing frontend development skills.
 
 ## Getting Started
-1. Clone the repository: `git clone https://github.com/yourusername/meme-generator.git`
+1. Clone the repository: `git clone https://github.com/saeedhalabi/meme-generator.git`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm start`
 4. Open your browser and visit: `http://localhost:3000`
