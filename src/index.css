@@ -12,9 +12,9 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  background: linear-gradient(#672280, #a626d3);
+  background: linear-gradient(90deg, #672280 1.1%, #a626d3 100%);
   color: #fff;
-  gap: 15px;
+  gap: 7px;
   height: 65px;
 }
 
@@ -23,6 +23,7 @@ body {
 }
 
 .header--content h1 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
+  letter-spacing: -2px;
 }
