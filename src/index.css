@@ -73,8 +73,45 @@ main {
   margin: 100px auto;
   border-radius: 10px;
 }
+
+.meme {
+  position: relative;
+}
+
+.meme--text {
+  position: absolute;
+  top: 0;
+  left: 45%;
+  font-family: "Impact", sans-serif;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+    2px 2px 0 #000; /* Creates the black outline */
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.bottom {
+  top: 64%;
+  left: 37%;
+}
+.top {
+  left: 37%;
+}
 @media screen and (max-width: 600px) {
   .form {
     grid-template-columns: 1fr;
+  }
+  .meme--text {
+    font-size: 1rem;
+  }
+  .top {
+    left: 0;
+    margin: 10px 0 0 40px;
+  }
+  .bottom {
+    top: 64%;
+    left: 0;
+    margin: 0 0 0 55px;
   }
 }
