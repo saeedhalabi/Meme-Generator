@@ -13,10 +13,13 @@ const Meme = () => {
 
   // Fetch Memes
   useEffect(() => {
-    fetch("https://api.imgflip.com/get_memes")
-      .then(res => res.json())
-      .then(data => setallMemes(data.data.memes));
-  }, []);
+    async function getMemes() {
+      const res = await fetch("https://api.imgflip.com/get_memes");
+      const data = await res.json();
+      setallMemes(data.data.memes);
+    }
+    getMemes();
+  });
 
   // Function to get a random meme image from MemesData
   const getMemeImage = () => {
